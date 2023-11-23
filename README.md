@@ -88,7 +88,7 @@ This project defines an E-Commerce platform based on the Django framework, where
 * [ ] `Identify offers` : as a **Shopper** I can **Quickly identify offers, clearance items and special offers** So that **I canTake advantage of special savings on products I would like to buy**
 * [ ] `View Purchase total` : as a **Shopper** I can **Easily see the total of my purchases at any time** So that **I canAvoid overspending**
 
-### Registration and User Acco
+### Registration and User Accounts
 * [ ] `Register account ` : as a **Site User** I can **Easily register an account** So that **I canHave a personal account and be able to view my profile**
 * [ ] `Log in & out` : as a **Site User** I can **Easily log in or log out** So that **I canAccess my personal account information**
 * [ ] `Restore password` : as a **Site User** I can **Easily retrieve my password if I forget it** So that **I canRegain access to my account**
