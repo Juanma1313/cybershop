@@ -81,10 +81,53 @@ This project defines an E-Commerce platform based on the Django framework, where
     * Presents a standard blog for posting articles, information and comments 
 
 
-### User Stories
+## User Stories
+### Viewing and Navigation
+* [ ] `View products list` : AS A **Shopper** I can **View a list of products** So that **I canSelect some to buy**
+* [ ] `View product details` : AS A **Shopper** I can **View the details of each product** So that **I canIdentify the price, description, product rating, product image and sizes available.**
+* [ ] `Identify offers` : AS A **Shopper** I can **Quickly identify offers, clearance items and special offers ** So that **I canTake advantage of special savings on products I would like to buy**
+* [ ] `View Purchase total` : AS A **Shopper** I can **Easily see the total of my purchases at any time** So that **I canAvoid overspending**
 
+### Registration and User Acco
+* [ ] `Register account ` : AS A **Site User** I can **Easily register an account ** So that **I canHave a personal account and be able to view my profile**
+* [ ] `Log in & out` : AS A **Site User** I can **Easily log in or log out** So that **I canAccess my personal account information**
+* [ ] `Restore password` : AS A **Site User** I can **Easily retrieve my password if I forget it** So that **I canRegain access to my account**
+* [ ] `Validate registration` : AS A **Site User** I can **Receive a confirmation email after registration** So that **I canVerify that my account registration has been completed successfully **
+* [ ] `User profile` : AS A **Site User** I can **Have a personalised user profile** So that **I canView my personal order history and order confirmations, and save my payment information**
 
-### Implemented Features
+### Sorting and Searching
+* [ ] `Sort Product list` : AS A **Shopper** I can **Sort the list of available products** So that **I canEasily identify the best-rated, best-priced products sorted by category.**
+* [ ] `Product category sorting` : AS A **Shopper** I can **Sort a specific product category** So that **I canFind the top-rated or most expensive product in a specific category, or sort products in that category by name.**
+* [ ] `Simultaneous product categories sorting` : AS A **Shopper** I can **Sort several product categories at the same time** So that **I canSearch for top-rated or most expensive products in broad categories**
+* [ ] `Search product` : AS A **Shopper** I can **Search for a product by name or description** So that **I canFind a specific product I would like to buy.**
+* [ ] `View Search results` : AS A **Shopper** I can **Easily see what I have searched for and the number of results** So that **I canQuickly decide if the product I want is available.**
+
+### Purchasing and Checkout
+* [ ] `Select product` : AS A **Shopper** I can **Easily select the size and quantity of a product when buying it** So that **I canMake sure I don't accidentally choose the wrong product, quantity or size.**
+* [ ] `View shopping cart` : AS A **Shopper** I can **View the items I have in my bag for purchase** So that **I canIdentify the total cost of my purchase and all the items I will receive.**
+* [ ] `Change data in shopping cart` : AS A **Shopper** I can **Adjust the quantity of individual items in my bag ** So that **I canEasily modify my purchase before checking out.**
+* [ ] `Payment details` : AS A **Shopper** I can **Easily enter my payment details** So that **I canCheckout quickly and smoothly**
+* [ ] `Payment information` : AS A **Shopper** I can **Feel that my personal and payment information is safe and secure** So that **I canConfidently provide the information needed to make a purchase**
+* [ ] `Order confirmation Insitu` : AS A **Shopper** I can **See order confirmation after checkout** So that **I canCheck that I have not made any mistakes**
+* [ ] `Order confirmation by e-mail` : AS A **Shopper** I can **Receive a confirmation email after placing my order** So that **I canKeep confirmation of what I have purchased for my records.**
+
+### Admin and Store Management
+* [ ] `Add product` : AS A **Store Owner** I can **Add a product** So that **I canAdd new items to my shop**
+* [ ] `Edit/update product` : AS A **Store Owner** I can **Edit/update a product** So that **I canChange prices, descriptions, images and other product criteria**
+* [ ] `Delete product` : AS A **Store Owner** I can **Delete a product** So that **I canRemove items that are no longer for sale**
+
+### Blog 
+- [ ] `View post list`:   As a **Site User** I can **view a paginated list of posts** so that I can select one to read
+- [ ] `Open a post`:      As a **Site User** I can **click on a post** so that **I can read the full text**
+- [ ] `View likes`:       As a **Site User / Admin** I can **view the number of likes on each post** so that **I can see which is the most popular or viral**
+- [ ] `View comments`:    As a **Site User / Admin** I can **view comments on an individual post** so that **I can read the conversation**
+- [ ] `Comment on a post`: As a **Site User** I can **leave comments on a post** so that **I can be involved in the conversation**
+- [ ] `Like / Unlike`:    As a **Site User** I can **like or unlike a post** so that **I can interact with the content**
+- [ ] `Manage posts`:     As a **Site Admin** I can **create, read, update and delete posts** so that **I can manage my blog content**
+- [ ] `Create drafts`:    As a **Site Admin** I can **create draft posts** so that **I can finish writing the content later**
+- [ ] `Approve comments`: As a **Site Admin** I can **approve or disapprove comments** so that **I can filter out objectionable comments**
+
+## Implemented Features
 
 - __Navigation Bar__
 
@@ -125,7 +168,7 @@ This project defines an E-Commerce platform based on the Django framework, where
 ![Sign Up](doc/screenshots/sign-up.png)
 
 
-### Features Left to Implement
+## Features Left to Implement
 
 ## The database models
 
