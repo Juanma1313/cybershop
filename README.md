@@ -128,10 +128,13 @@ This project defines an E-Commerce platform based on the Django framework, where
 
 ### User information
 This model provides persistent support for user information. Since there are different user roles, a scheme of roles. Permissions and authorizations must be established.
-Since "Django-allauth" is used as a framework, the base database model is already defined, and we have simply extended it to adapt it to the needs of this project.
+Since "Django-allauth" is used as a framework, the base database model is already defined, and we have simply extended it to adapt it to the needs of this project using the object/table `auth_user` as link.
 
 
-### Product information
+### Orders information
+This model is subdivided in three submodels, first one defines the objects and storage for the  `user profiles`, the seccond defines the objects and storage for the `products`, and the third one defines the objects and storage for `purchase orders`.
+
+![Orders model](doc/database/cybershop-orders-ERD.png)
 
 ### Blog Information
 
@@ -179,6 +182,7 @@ The live link can be found here - https://juanma1313.github.io/cybershop/index.h
 ### Content 
 
 - base.html Implement was addapted from the CI Boutique_Ado project
+- Models for database objects `user preferences`, `products`, `orders` and `blog` are borrowed from CI Boutique_Ado and CI Django_Blog projects.
 
 ### Media
 - All `static/` and `media/` files are created and designed by Juan Manuel de las Heras
