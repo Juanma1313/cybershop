@@ -1,10 +1,11 @@
 ![Cybershop logo](static/cybershop_logo_025.png)
+THIS PROJECT STILL UDER DEVELOPMENT
 
 # CYBERSHOP
 
 Cybershop is an online shop specifically customized for a retailer who has a business offering items for sale aimed at makers, tinkerers and students of technologies related to robotics, 3D printing, Computer Vision and other emerging technology areas.
 
-On this website a customer will be able to view and purchase the products offered by the customer, share information about their ideas and projects related to these products and search for information about related technologies.
+On this website a customer will be able to view and purchase the products offered by the retailer, share information about their own ideas and projects related to these products, and search for information about technologies.
 
 ## Features 
 This project defines an E-Commerce platform based on the Django framework, where the following features are offered:
@@ -32,56 +33,58 @@ This project defines an E-Commerce platform based on the Django framework, where
     * Direct Checkout and payment access
     * Direct access to the site Blog
 
-- The 'Home' page :  
+- The `Home` page :  
     * It offers tech news and special deals that the user may find interesting.
     * A quick search tool is available to browse the shop's product inventory.
 
-- The 'About Us' page:  
+- The `About Us` page:  
     * Displays information about the company
     * Contains a footer with company and contact information.
 
-- The 'Sign up" page:
+- The `Sign up` page:
     * Allows a user to register with the server for future visits.
     * verify registration using e-mail validation
 
-- The user profile page
+- The `user profile` page
     * Displays an updatable form wuth Customer specific information
         Name, delivery Address, billing Address, payment form, etc
     * Displays the list of orders placed by the user and their status.
     * Allows to review any order
 
-- The products page:
+- The `products` page:
     * Presents a search and filter options to find the products by specific clasifications
     * A list of products available for sale is presented with photo and price.
 
-- Product detail page
+- The `Product detail` page
     * Displays the specific product with details
     * Allows to add the product to the shopping cart
 
-- Shopping cart page
+- The `Shopping cart` page
     * Displays the list of products in the shopping cart
     * Displays individual and total costs
     * Allows to place and order with specified products form the shopping cart
 
-- Order page
+- The `Order` page
     * Displays the list of products in the order
     * Displays individual and total costs
     * Inputs delivery information
     * Inputs payment information
     * Allows to place and order using a payment processing platform (Stripe) 
 
-- The Support page
+- The `Support` page
     * list of supported products with links to their specific tech documments.
 
-- The Comunity 
+- The `Comunity` 
     * list of news, events and the company related information
 
-- The Blog Page:
+- The `Blog` Page:
     * Presents a standard blog for posting articles, information and comments 
 
 
+### User Stories
 
-### Existing Features
+
+### Implemented Features
 
 - __Navigation Bar__
 
